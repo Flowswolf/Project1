@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div-1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+.div-3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: purple;
+}
+
+.div-1 .p1 {
+  font-size: 10rem;
+  text-align: center;
+  color: bisque;
+  background-color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.div-1 .p2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #ff6200;
+  background-color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-1 .buton:hover {
+  width: 50vw;
+  height: 20vh;
+  border-radius: 50px;
+  background: #e81111;
+  box-shadow: 18px 18px 36px #b62f2f, -18px -18px 36px #7b0d0d;
+  border: none;
+  cursor: pointer;
+  transition: all 1s ease;
+  
+  a{
+    color: aqua;
+  }
+}
+
+.div-1 .buton {
+    width: 50vw;
+    height: 20vh;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 18px 18px 36px #bebebe, -18px -18px 36px #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
